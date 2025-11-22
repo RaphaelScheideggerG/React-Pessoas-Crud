@@ -1,18 +1,19 @@
-# React + Vite
+# Crud de pessoas com React
+## Funcionalidades exploradas no projeto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+###**PF: Data de nascimento**
+- Implementado na classe (PF.mjs) com setters/getters coerentes.
+- Campo no formulário PFForm.jsx com DatePicker. 
+- atribuição de data de nascimento ao objeto pessoa utilizando os valores do formulário (linha 36 em PessoaForm)
+- Persistência via DAO (chamando método em PessoaForm.jsx).
 
-Currently, two official plugins are available:
+###**PJ: Data de registro da IE**
+- Inscrição Estadual Implementada na classe (PJ.mjs) com setters/getters coerentes.
+- Formulário PJForm.jsx com campos “Inscrição Estadual”, “Estado” e “Data de Registro”.
+- instanciando IE e depois usando método setIE de pessoa para depois armazenar PJ com o DAO (linha 41:45 em PessoaForm.jsx)
+- Persistência via DAO (chamando método de salvar em PessoaForm.jsx linha 62)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is enabled on this template. See [this documentation](https://react.dev/learn/react-compiler) for more information.
-
-Note: This will impact Vite dev & build performances.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Como executar
+- Clone o repositório
+- Instale as dependências: `npm install`
+- Rode o projeto: `npm run dev`
