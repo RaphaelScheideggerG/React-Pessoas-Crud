@@ -17,3 +17,10 @@
 - Clone o repositório
 - Instale as dependências: `npm install`
 - Rode o projeto: `npm run dev`
+---
+👥 Autores e Contato  
+Coordenação: Leandro Vaguetti  
+Instituição: Instituto Federal de Brasília - IFB  
+Contato: leandro.vaguetti@ifb.edu.br  
+
+Este repositório contém adaptações feitas por mim para fins acadêmicos.
