@@ -11,7 +11,7 @@ export default function AppRoutes() {
       <Routes>
          <Route path="/" element={<MainLayout />}>
           <Route index element={<Navigate to="cadastrar" replace />} />
-          <Route path="pessoa"  element={<PessoaForm />} />
+          <Route path="cadastrar"  element={<PessoaForm />} />
           <Route path="lista" element={<ListaPessoas />} />
           <Route path="visualizar/:tipo/:id" element={<VisualizaPessoa />} />
           <Route path="editar/:tipo/:id" element={<PessoaForm />} /> 
